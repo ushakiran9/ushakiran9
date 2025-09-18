@@ -8,7 +8,7 @@ Skilled in Kali Linux, looking for an initial position to contribute my skills f
 
 ## Education
 - **B.Tech (Computer Science - Cyber Security), MLRIT (2023 - 2026)**  
-  CGPA: 8.1
+  CGPA: 7.9
 - **Diploma (Electronics and Communication Engineering), (2020 - 2023)**  
   CGPA: 9.21
 - **School of Secondary Education, 2020**  
