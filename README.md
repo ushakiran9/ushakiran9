@@ -1,8 +1,6 @@
 # Hello, I'm Myadam Usha Kiran
 <a href="https://www.linkedin.com/in/myadam-usha-kiran-a5491a289"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-Email: ushakiranmyadam@gmail.com
-
 ## Career Objective
 Skilled in Kali Linux, looking for an initial position to contribute my skills for the growth of an organization.
 
