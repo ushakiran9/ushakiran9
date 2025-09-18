@@ -2,7 +2,7 @@
 <a href="https://www.linkedin.com/in/myadam-usha-kiran-a5491a289"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 ## Career Objective
-Skilled in Kali Linux, looking for an initial position to contribute my skills for the growth of an organization.
+My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
 
 ## Education
 - **B.Tech (Computer Science - Cyber Security), MLRIT (2023 - 2026)**  
@@ -22,11 +22,12 @@ Skilled in Kali Linux, looking for an initial position to contribute my skills f
 
 ## Certifications
 <div>
+    <a href="https://www.credly.com/badges/ed196307-d4ca-40bd-971f-a61abae3a5e8/public_url" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/-Introduction_to_Cybersecurity_Cisco-2C97FF?&style=for-the-badge&logo=Cisco&logoColor=white" alt="Introduction to Cybersecurity Badge" />
+</a>
     <img src="https://img.shields.io/badge/-Data_Analytics_Essentials_CISCO-2C97FF?&style=for-the-badge&logo=Cisco&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Cyber_Security_and_Privacy_NPTEL-9B59B6?&style=for-the-badge&logoColor=white" />
 </div>
-Certified for course completion in Data Analytics Essentials by CISCO, 2024.  
-Certified for course completion in Cyber Security and Privacy by NPTEL, 2024.
+
 
 ## Projects
 
