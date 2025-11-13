@@ -6,7 +6,7 @@ My journey in computer science has led me to develop a passion for cybersecurity
 
 ## Education
 - **B.Tech (Computer Science - Cyber Security), MLRIT (2023 - 2026)**  
-  CGPA: 7.9
+  CGPA: 7.98
 - **Diploma (Electronics and Communication Engineering), (2020 - 2023)**  
   CGPA: 9.21
 - **School of Secondary Education, 2020**  
