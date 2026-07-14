@@ -1,171 +1,580 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Usha Kiran | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
+    <title>Myadam Usha Kiran | Cybersecurity Portfolio</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+          rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-<nav>
-<h2>Usha Kiran</h2>
+<div id="particles"></div>
 
-<ul>
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+<span>&lt;/&gt;</span> Usha Kiran
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
 <li><a href="#about">About</a></li>
+
 <li><a href="#skills">Skills</a></li>
+
+<li><a href="#experience">Experience</a></li>
+
 <li><a href="#projects">Projects</a></li>
+
+<li><a href="#certifications">Certificates</a></li>
+
 <li><a href="#contact">Contact</a></li>
+
 </ul>
 
-<button id="theme">🌙</button>
+<div class="nav-right">
+
+<button id="theme-toggle">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+</div>
 
 </nav>
+
 </header>
 
-<section class="hero">
+<!-- ================= HERO ================= -->
 
-<h1>Hello, I'm <span>Usha Kiran</span></h1>
+<section id="home" class="hero">
 
-<p>Systems Engineer | SOC | Blue Team Enthusiast</p>
+<div class="hero-left"
+     data-aos="fade-right">
 
-<a href="assets/resume.pdf" class="btn">Download Resume</a>
-
-</section>
-
-<section id="about">
-
-<h2>About Me</h2>
-
-<p>
-Passionate cybersecurity enthusiast interested in Security Operations,
-Threat Detection, Vulnerability Assessment and Incident Response.
-Currently working at TCS while continuously improving my security skills.
+<p class="intro">
+Hello 👋 I'm
 </p>
 
-</section>
+<h1>
 
-<section id="skills">
+Myadam <span>Usha Kiran</span>
 
-<h2>Skills</h2>
+</h1>
 
-<div class="cards">
+<h2>
 
-<div>Python</div>
-<div>Java</div>
-<div>SQL</div>
-<div>HTML/CSS</div>
-<div>Linux</div>
-<div>Kali Linux</div>
-<div>Wireshark</div>
-<div>Nmap</div>
-<div>Burp Suite</div>
-<div>SIEM</div>
-<div>SOC</div>
-<div>IAM</div>
+<span id="typing"></span>
+
+</h2>
+
+<p class="hero-desc">
+
+Passionate Cybersecurity professional interested in
+Security Operations, Identity & Access Management,
+Threat Detection and Blue Team Operations.
+
+Currently working at <strong>TCS</strong> while continuously
+expanding my cybersecurity expertise.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="assets/resume.pdf"
+   class="primary-btn">
+
+<i class="fa-solid fa-download"></i>
+
+Resume
+
+</a>
+
+<a href="https://github.com/ushakiran9"
+   target="_blank"
+   class="secondary-btn">
+
+<i class="fa-brands fa-github"></i>
+
+GitHub
+
+</a>
+
+<a href="https://linkedin.com"
+   target="_blank"
+   class="secondary-btn">
+
+<i class="fa-brands fa-linkedin"></i>
+
+LinkedIn
+
+</a>
+
+</div>
+
+<div class="social-icons">
+
+<a href="https://github.com/ushakiran9">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-envelope"></i>
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-right"
+     data-aos="fade-left">
+
+<div class="profile-card">
+
+<div class="profile-image">
+
+<img src="assets/profile.png"
+     alt="Profile">
+
+</div>
+
+<div class="status">
+
+<span class="dot"></span>
+
+Available for Opportunities
+
+</div>
+
+<div class="terminal">
+
+<p>$ whoami</p>
+
+<p>> Cybersecurity Analyst</p>
+
+<p>$ skills</p>
+
+<p>> SOC | IAM | SIEM | Python</p>
+
+<p>$ status</p>
+
+<p>> Always Learning 🚀</p>
+
+</div>
+
+</div>
 
 </div>
 
 </section>
 
-<section id="projects">
+<!-- ================= ABOUT ================= -->
+
+<section id="about"
+         class="section">
+
+<div class="section-title"
+     data-aos="fade-up">
+
+<h2>About Me</h2>
+
+<p>Get to know me better.</p>
+
+</div>
+
+<div class="about-grid">
+
+<div class="about-text"
+     data-aos="fade-right">
+
+<p>
+
+I'm a Cybersecurity enthusiast with strong
+interest in Security Operations, IAM,
+Threat Detection, Vulnerability Assessment,
+Incident Response and Cloud Security.
+
+</p>
+
+<p>
+
+I enjoy solving security challenges,
+participating in TryHackMe labs,
+learning enterprise IAM concepts
+and building practical security projects.
+
+</p>
+
+</div>
+
+<div class="about-info"
+     data-aos="fade-left">
+
+<div class="info-card">
+
+<h3>Education</h3>
+
+<p>B.Tech Computer Science (Cyber Security)</p>
+
+<p>MLR Institute of Technology</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Current Company</h3>
+
+<p>Tata Consultancy Services</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Location</h3>
+
+<p>India</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills"
+         class="section">
+
+<div class="section-title">
+
+<h2>Skills</h2>
+
+<p>Technologies I work with.</p>
+
+</div>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+
+<i class="fa-solid fa-shield-halved"></i>
+
+<h3>SOC</h3>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fa-solid fa-user-lock"></i>
+
+<h3>IAM</h3>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fa-solid fa-bug"></i>
+
+<h3>SIEM</h3>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fa-brands fa-python"></i>
+
+<h3>Python</h3>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fa-solid fa-database"></i>
+
+<h3>SQL</h3>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fa-brands fa-java"></i>
+
+<h3>Java</h3>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fa-solid fa-network-wired"></i>
+
+<h3>Networking</h3>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fa-brands fa-linux"></i>
+
+<h3>Linux</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience"
+         class="section">
+
+<div class="section-title">
+
+<h2>Experience</h2>
+
+</div>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<h3>TCS</h3>
+
+<span>Cybersecurity Professional</span>
+
+<p>
+
+Working on Identity & Access Management,
+Security Operations and Enterprise Security.
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>Hack Secure Internship</h3>
+
+<span>Cybersecurity Intern</span>
+
+<p>
+
+Worked on Vulnerability Assessment,
+Penetration Testing and Security Tools.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects"
+         class="section">
+
+<div class="section-title">
 
 <h2>Projects</h2>
 
-<div class="project">
+</div>
+
+<div class="project-grid">
+
+<div class="project-card">
+
+<div class="project-image"></div>
 
 <h3>Steganography Secure Communication</h3>
 
 <p>
-AES encrypted image-based secure messaging using Python and OpenCV.
+
+AES encrypted secure messaging
+using Python & OpenCV.
+
 </p>
 
-<a href="https://github.com/ushakiran9/Steganography-Based-Secure-Communication-System">GitHub</a>
+<div class="tags">
+
+<span>Python</span>
+
+<span>AES</span>
+
+<span>OpenCV</span>
 
 </div>
 
-<div class="project">
+<a href="https://github.com/ushakiran9">
+
+View Project →
+
+</a>
+
+</div>
+
+<div class="project-card">
+
+<div class="project-image"></div>
 
 <h3>Smart Task Prioritizer</h3>
 
 <p>
-Java Swing desktop productivity application.
+
+Java Swing desktop productivity manager.
+
 </p>
+
+<div class="tags">
+
+<span>Java</span>
+
+<span>Swing</span>
+
+</div>
+
+</div>
+
+<div class="project-card">
+
+<div class="project-image"></div>
+
+<h3>AI Answer Sheet Evaluation</h3>
+
+<p>
+
+OCR + NLP based automatic evaluation system.
+
+</p>
+
+<div class="tags">
+
+<span>OCR</span>
+
+<span>NLP</span>
+
+<span>LLM</span>
+
+</div>
+
+</div>
 
 </div>
 
 </section>
 
-<section>
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section id="certifications"
+         class="section">
+
+<div class="section-title">
 
 <h2>Certifications</h2>
 
-<ul>
+</div>
 
-<li>TryHackMe Pre Security</li>
+<div class="cert-grid">
 
-<li>Advent of Cyber</li>
+<div class="cert-card">Cisco Cybersecurity</div>
 
-<li>Cisco Introduction to Cybersecurity</li>
+<div class="cert-card">TryHackMe</div>
 
-<li>NPTEL Cyber Security & Privacy</li>
+<div class="cert-card">NPTEL</div>
 
-<li>SQL Advanced - HackerRank</li>
+<div class="cert-card">SQL Advanced</div>
 
-<li>Tata Cybersecurity Simulation</li>
+<div class="cert-card">Tata Forage</div>
 
-<li>AIG Shields Up Simulation</li>
+<div class="cert-card">AIG Shields Up</div>
 
-</ul>
-
-</section>
-
-<section>
-
-<h2>Achievements</h2>
-
-<ul>
-
-<li>Top 7% on TryHackMe</li>
-
-<li>5★ Java - HackerRank</li>
-
-<li>TCS HackQuest Participant</li>
-
-</ul>
+</div>
 
 </section>
 
-<section id="contact">
+<!-- ================= CONTACT ================= -->
 
-<h2>Contact</h2>
+<section id="contact"
+         class="section">
 
-<p>Email: yourmail@example.com</p>
+<div class="section-title">
 
-<p>GitHub:
-<a href="https://github.com/ushakiran9">
-github.com/ushakiran9
+<h2>Let's Connect</h2>
+
+</div>
+
+<div class="contact-box">
+
+<a href="#">
+<i class="fa-solid fa-envelope"></i>
+Email
 </a>
-</p>
 
-<p>LinkedIn:
-<a href="#">LinkedIn Profile</a>
-</p>
+<a href="https://github.com/ushakiran9">
+<i class="fab fa-github"></i>
+GitHub
+</a>
+
+<a href="#">
+<i class="fab fa-linkedin"></i>
+LinkedIn
+</a>
+
+</div>
 
 </section>
 
 <footer>
 
-Made with ❤️ by Usha Kiran
+<p>
+
+© 2026 Myadam Usha Kiran • Built with HTML, CSS & JavaScript
+
+</p>
 
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
